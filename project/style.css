@@ -1,0 +1,110 @@
+/*The style of body elements. Will be included in everything that is in <body>.*/
+body {
+  font-family: 'Josefin Sans', sans-serif;
+
+  background-color: #f1f4f7; 
+  text-align: center;
+}
+
+/*The style of footer.*/
+footer {
+  margin: 3px;
+  padding: 5px;
+  font-size: .5em;
+}
+
+/*The blue container. */
+.container {
+  display: block;
+  margin-top: 72px;
+  margin-left: auto;
+  margin-right: auto; 
+
+  width: 360px;
+  color: #FFFFFF;
+
+  border-style: solid;
+  border-width: 1px;
+  border-color: #7c99b4; 
+  border-radius: 3px;
+  
+  background-color: #89a3bb;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.24);
+  z-index: 2;
+
+  padding-bottom: 10px;
+}
+
+/* Responsive styling */
+@media screen and (max-width: 480px) {
+    .container {
+        position: absolute;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        bottom: 0;
+    } 
+    
+    footer {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 3;
+    }
+    
+    .text-muted {
+        color: #dedede;
+    }
+}
+
+/* A class that make image circle */
+.img-circle {
+  border-radius: 50%;
+}
+
+/* Style the profile image to have borders */
+.profile-image-style {
+  margin-top: 24px;
+  
+  border-style: solid;
+  border-width: 1px;
+  border-color: #7c99b4; 
+}
+
+/* Style only the <ul> element below class=".icon-container" */
+.icon-container ul {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* The style for <li> element below class=".icon-container" and after <ul> */
+.icon-container ul li {
+  display: inline-block;
+  margin: 0 1em;
+}
+
+/* The styling of <a> after class=".icon" */
+.icon a {
+  color: #FFF;
+}
+
+/* As your mouse hover over the icon */
+.icon > a:hover {
+  color: #B0B0B0;
+}
+
+/* make words to align to center */
+.center-text {
+  text-align: center;
+}
+
+/* change the font weight to make it thinner for the middle container */
+.fields-container p {
+  font-weight: 100;
+}
+
