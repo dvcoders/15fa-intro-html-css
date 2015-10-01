@@ -16,7 +16,7 @@ You should be googling, searching, tinkering, and asking questions in order to l
 
 - 	[Code Academy HTML/CSS](https://www.codecademy.com/en/skills/make-a-website) - Code Academy is a self-paced, easy to follow, tutorial in the basics of web site creation.
 -  [HTML Cheatsheet ](http://www.webmonkey.com/2010/02/html_cheatsheet/) - Here's shorthand reference for some HTML elements you might want to use. If you find something you want to use, Search "How to use <element> to do ____"
--  [CSS Cheatsheet](http://learnxinyminutes.com/css) - A general way to use CSS
+-  [CSS Cheatsheet](http://learnxinyminutes.com/docs/css/) - A general way to use CSS
 
 **Note**: The best way to learn HTML/CSS is to use `Inspect Element` on an existing webpage to learn how existing HTML and CSS interact. Using your browser's developer tools, you can see how CSS classes and ids affect HTML display.
 
